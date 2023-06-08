@@ -12,7 +12,6 @@ Todos os comandos devem ser executados na raiz do projeto, dentro do servidor PH
 ```
 composer install
 php artisan config:cache
-php artisan serve
 ```
 ## Definir Banco de Dados em " env. "
 ```
@@ -36,6 +35,10 @@ INFO  Preparing database.
 INFO  Running migrations.  
   2014_10_12_000000_create_contracts_table ...................... 123ms DONE
   2014_10_12_100000_create_equipaments_table ............. 78ms DONE
+```
+## Iniciar Servidor
+```
+$ php artisan serve
 ```
 ## Testa e Interar a API
 - [Postman] - https://www.postman.com
